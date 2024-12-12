@@ -11,4 +11,4 @@ jobs:
         run: echo ABC
       
       - name: try print from composite action
-        uses: ./
+        uses: ./.github/actions/my-action
