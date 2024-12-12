@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: print something
         run: echo ABC
-      - name: checkout code
+      - name: My first step - check out repository
         uses: actions/checkout@v4
       
-      - name: try print from composite action
-        uses: ./action.yml
+      - name: Use local hello-world-action
+        uses: ./.github/actions/my-action
