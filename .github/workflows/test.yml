@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: print something
         run: echo ABC
+      
+      - name: try print from composite action
+        uses: ./
