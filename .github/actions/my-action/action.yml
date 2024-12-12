@@ -5,4 +5,5 @@ runs:
   using: 'composite'
   steps:
     - name: composite print
+      shell: bash 
       run: echo Printing from composite! 
