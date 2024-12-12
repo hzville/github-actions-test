@@ -1,0 +1,11 @@
+name: testing github actions
+
+on:
+  push:
+
+jobs:
+  test-job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: print something
+        run: echo ABC
