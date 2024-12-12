@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: print something
         run: echo ABC
+      - name: checkout code
+        uses: actions/checkout@v4
       
       - name: try print from composite action
         uses: ./action.yml
